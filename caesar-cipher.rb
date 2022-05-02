@@ -41,5 +41,4 @@ puts "Enter a shift factor (number):"
 numInput = gets.chomp
 numInput = numInput.to_i
 
-
 puts caesar_cipher(strInput, numInput)
