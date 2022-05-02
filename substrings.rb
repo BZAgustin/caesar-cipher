@@ -26,7 +26,3 @@ def substrings(string, arr)
 end
 
 puts substrings("Howdy partner! Sit down, how's it going?", dictionary)
-    
-
-
-
