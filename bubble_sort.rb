@@ -27,5 +27,3 @@ def bubble_sort(numbers)
         end
     end
 end
-
-puts bubble_sort(arr)
