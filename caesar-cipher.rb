@@ -2,7 +2,7 @@ def caesar_cipher(str, factor)
     # Convert the string to an array of ASCII values with #bytes
     asciiChars = str.bytes
 
-    # Shift the characters by the factor indicated, ignoring the ones that are not
+    # Shift the characters by the factor indicated, ignoring the ones that are not alphabetic
     if asciiChars.any? { |char| char >= 65 && char <= 90 || char >= 97 && char <= 122 }
         asciiChars = asciiChars.map do |char| 
             if char >= 65 && char <= 90 || char >= 97 && char <= 122
