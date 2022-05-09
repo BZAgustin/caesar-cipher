@@ -28,5 +28,3 @@ def sort_array(arr)
   end
   arr
 end
-
-puts bubble_sort([3, 9, 2, 6, 14, 99, 27, 68])
